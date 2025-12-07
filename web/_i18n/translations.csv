@@ -27,3 +27,6 @@ FOOTER_SUPPORT,Support,지원,サポート,Soporte,支援
 FOOTER_CONTACT,Contact Us,문의하기,お問い合わせ,Contacto,聯絡我們
 FOOTER_PRIVACY,Privacy Policy,개인정보처리방침,プライバシーポリシー,Política de Privacidad,私隱政策
 FOOTER_TERMS,Terms of Service,이용약관,利用規約,Términos de Servicio,服務條款
+OG_SITE_NAME,ClipDoggy,ClipDoggy,ClipDoggy,ClipDoggy,ClipDoggy
+OG_LOCALE,en_US,ko_KR,ja_JP,es_ES,zh_HK
+CANONICAL_PATH,,kr/,jp/,es/,hk/
