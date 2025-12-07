@@ -635,7 +635,7 @@
             gap: 48px;
             max-width: 1440px;
             margin: 0 auto;
-            padding: 0 32px;
+            padding: 0 16px;
         }
 
         .footer__brand {
@@ -773,13 +773,22 @@
                 display: none;
             }
 
+            .nav__right .btn {
+                display: none;
+            }
+
             .hero {
                 padding: 100px 0 60px;
             }
 
             .hero__inner {
-                grid-template-columns: 1fr;
+                display: flex;
+                flex-direction: column;
                 gap: 40px;
+            }
+
+            .hero__visual {
+                order: -1;
             }
 
             .hero__content {
@@ -917,11 +926,15 @@
         /* Responsive - Mobile (480px and below) */
         @media (max-width: 480px) {
             .container {
-                padding: 0 20px;
+                padding: 0 16px;
             }
 
             .nav__inner {
                 padding: 0 16px;
+            }
+
+            .footer__inner {
+                padding: 0;
             }
 
             .hero {
@@ -966,7 +979,7 @@
             }
 
             .logos__grid {
-                gap: 16px;
+                gap: 12px;
                 flex-direction: column;
             }
 
